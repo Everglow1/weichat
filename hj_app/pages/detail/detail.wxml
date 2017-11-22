@@ -1,0 +1,14 @@
+<!--pages/detail/detail.wxml-->
+<!-- 组件，html 太简单了，组件来丰富功能 组件式开发才是出入 -->
+<scroll-view scroll-y="true" 
+enable-back-to-top="true"
+class="root-wrap">
+<view class="info-toitle">
+        Quora精选：为什么聪明人总能保持冷静
+</view>
+<view class="info-desc cf">
+    <text class="info-desc-author fl">哈利波特</text>
+    <text class="info-desc-date fr">2017/06/27</text>
+</view>
+<view class="info-line under-line">咕咕咕咕</view>
+</scroll-view>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1 onclick="changetext(this)">请点击</h1>
+  <button onclick="displayDate()">点击</button>
+  <!-- <h1 onclick = "this.innerHTML='谢谢！'">请点击</h1> -->
+  <script>
+   function changetext(id) {
+     id.innerHTML="xiexie!";
+   }
+  function displayDate() {
+   document.getElementById('demo').innerHTML=Date();
+  }
+  
+  </script>
+  <p id="demo">ggg</p>
+</body>
+</html>
+<!-- let lodarr= ['1','2','3'];
+undefined
+undefined
+let newArr = oldArr;
+true
+newArr[0]='4';
+"4"
+newArr -->

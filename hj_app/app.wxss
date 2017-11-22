@@ -1,0 +1,7 @@
+
+@import "./styles/base.wxss"; /*引入样式 */
+/* @import "./lib/wxParse/wxParse.wxss"; 引入第三方库 */
+.green{
+  color:#26b961;
+  background-color: #f8f8f8;
+}
